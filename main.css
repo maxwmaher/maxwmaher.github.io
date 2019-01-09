@@ -16,6 +16,7 @@ footer .row {
 header h1 {
   font-weight: 700;
   margin: 0;
+  align-items: right;
 }
 
 header nav {
