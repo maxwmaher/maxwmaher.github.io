@@ -12,6 +12,12 @@ header {
 a:visited{
   color:white;
 }
+a:link{
+  color:white;
+}
+a:hover{
+  color:orange;
+}
 
 header .row,
 footer .row {
@@ -49,19 +55,19 @@ header p {
 
 .container3 {
   color: black;
-  background-color: #f1efef;
   margin: auto;
   text-align: center;
+  height: auto;
+  width: auto;
+  background-color: #f1efef;
+}
+
+.row2 {
+  height: 200px;
 }
 
 .col-sm-2 {
   height: 400px;
-  background-color: #3b3b3b;
-}
-
-.col-sm-4 {
-  height: 400px;
-  background-color: #f1efef;
 }
 
 .jumbotron {
