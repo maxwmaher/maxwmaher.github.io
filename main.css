@@ -1,6 +1,4 @@
 body {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
   background-color: #3b3b3b
 }
 
@@ -19,10 +17,15 @@ a:hover{
   color:orange;
 }
 
-header .row,
-footer .row {
+header .row {
   display: flex;
   align-items: center;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+  color: white;
 }
 
 header h1 {
@@ -33,41 +36,17 @@ header h1 {
   max-width: 400px
 }
 
-header nav {
-  display: flex;
-  justify-content: flex-end;
-  color: white;
+.mypicture {
+    max-width: 150px;
+  max-height:50px;
+ }
+.mypicture img {
+    width: 100%;
 }
 
 header p {
   padding: 0 20px;
   margin: 0;
-}
-
-.container2 {
-    max-width: 150px;
-  max-height:50px;
- }
-.container2 img {
-    width: 100%;
-    height: auto;
-}
-
-.container3 {
-  color: black;
-  margin: auto;
-  text-align: center;
-  height: auto;
-  width: auto;
-  background-color: #f1efef;
-}
-
-.row2 {
-  height: 200px;
-}
-
-.col-sm-2 {
-  height: 400px;
 }
 
 .jumbotron {
@@ -79,16 +58,40 @@ header p {
   height: 150px;
 }
 
-.jumbotron h2 {
-  font-size: 60px;
-  font-weight: 700;
-  margin: 0;
-  color: #fff;
+.resumebody {
+  color: black;
 }
 
-.jumbotron h3 {
-  margin: 0 0 20px;
-  color: #fff;
+h3{
+  text-align: right;
+  color:#000000;
+}
+
+h3 span{
+  background-color: #f1efef;
+}
+
+.educationcontact {
+  height: 200px;
+}
+
+.col-sm-2 {
+  height: 400px;
+}
+
+.education {
+  text-align: right;
+}
+
+.educationdetail {
+  text-align: left;
+  background-color: #D3D3D3;
+  margin-top: 19px;
+  padding: 5px;
+}
+
+.col-sm-2 {
+  height: auto;
 }
 
 section .row img {
