@@ -60,6 +60,7 @@ header p {
 
 .resumebody {
   color: black;
+  max-height: 400px
 }
 
 h3{
@@ -76,6 +77,14 @@ h3 span{
 }
 
 .col-sm-2 {
+  height: 400px;
+}
+
+.col-sm-3 {
+  height: 400px;
+}
+
+.col-sm-6 {
   height: 400px;
 }
 
@@ -120,4 +129,10 @@ footer ul {
 footer li img {
   width: 32px;
   height: 32px;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
 }
