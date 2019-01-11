@@ -49,6 +49,10 @@ header p {
   margin: 0;
 }
 
+.container {
+  text-align: center;
+}
+
 .jumbotron {
   display: flex;
   align-items: center;
@@ -60,7 +64,13 @@ header p {
 
 .resumebody {
   color: black;
-  max-height: 400px
+  
+}
+
+.resumebody2 {
+  color: black;
+  padding: 20px;
+
 }
 
 h3{
@@ -68,35 +78,75 @@ h3{
   color:#000000;
 }
 
-h3 span{
-  background-color: #f1efef;
+p {
+  margin: 0 0 10px;
 }
 
-.educationcontact {
-  height: 200px;
+h3 span{
+  color: white;
+  -webkit-text-stroke-color: black
+}
+
+.col-sm-2.educationdetail {
+  height: 150px;
 }
 
 .col-sm-2 {
-  height: 400px;
+  height: 150px;
+}
+
+.col-sm-2.last {
+  height: 150px;
 }
 
 .col-sm-3 {
-  height: 400px;
+  height: 300px;
 }
 
 .col-sm-6 {
-  height: 400px;
+  height: 300px;
 }
 
 .education {
   text-align: right;
+  height: 150px;
+  margin: 0px;
+}
+
+.prof {
+  text-align: left;
+  margin: 30px;
+  padding: 20px;
+  margin-bottom: 0px;
+}
+
+.profdetails {
+  margin-left: 50px;
+  background-color: #a09f9f;
+  padding-left: 5px;
 }
 
 .educationdetail {
-  text-align: left;
-  background-color: #D3D3D3;
+  background-color: #a09f9f;
+  padding: 3px;
+  height: 150 px;
+}
+
+.educationdetail h4 {
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+.contact {
+  text-align: right;
+  height: 150px;
+}
+
+.contactdetail {
+  background-color: #a09f9f;
   margin-top: 19px;
   padding: 5px;
+  height: 150px;
 }
 
 .col-sm-2 {
@@ -106,10 +156,6 @@ h3 span{
 section .row img {
   margin: 0 0 30px;
   width: 100%;
-}
-
-.col-md-6 {
-  margin: 0 0 30px;
 }
 
 footer {
